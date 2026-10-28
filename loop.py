@@ -125,3 +125,4 @@ def run_agent(user_input: str, max_turns: int = 10) -> None:
 if __name__ == "__main__":
     question = " ".join(sys.argv[1:]) or "北京和上海现在天气怎么样？现在几点（Asia/Shanghai）？"
     run_agent(question)
+    print("这是一个极简的示例agent loop")
